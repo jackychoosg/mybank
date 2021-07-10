@@ -24,7 +24,10 @@ const CurrencyBlock: FC<ICurrencyBlock> = ({
 }) => {
   return (
     <FieldSet>
-      <Title>Amount</Title>
+      <Title>
+        {R.strings.form.amount}
+        {errorMessage && <ErrorMessage>{errorMessage}</ErrorMessage>}
+      </Title>
       <CurrencyInput
         id="input-amount"
         name="amount"
@@ -35,7 +38,6 @@ const CurrencyBlock: FC<ICurrencyBlock> = ({
         onValueChange={onValueChange}
         error={!!errorMessage ? 'error' : 'none'}
       />
-      {errorMessage && <ErrorMessage>{errorMessage}</ErrorMessage>}
     </FieldSet>
   )
 }

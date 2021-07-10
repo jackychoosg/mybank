@@ -6,9 +6,14 @@ exports[`DropDown component should take a snapshot 1`] = `
     class="sc-gtsrHT ckIJnv"
   >
     <label
-      class="sc-dlnjwi kkQsvs"
+      class="sc-dlnjwi cVzCZm"
     >
       Account
+      <div
+        class="sc-bdnxRM bqGtyK"
+      >
+        Required
+      </div>
     </label>
     <select
       class="sc-hKFxyN bVnZyW"
@@ -36,11 +41,6 @@ exports[`DropDown component should take a snapshot 1`] = `
         account2
       </option>
     </select>
-    <div
-      class="sc-bdnxRM iagrrb"
-    >
-      Required
-    </div>
   </div>
 </DocumentFragment>
 `;

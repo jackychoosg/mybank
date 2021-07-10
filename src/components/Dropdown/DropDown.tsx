@@ -21,7 +21,10 @@ export const DropDown: FC<IDropdown> = ({
 }) => {
   return (
     <DropdownC>
-      <Label>{label}</Label>
+      <Label>
+        {label}
+        {!!errorMessage && <ErrorMessage>{errorMessage}</ErrorMessage>}
+      </Label>
       <Select
         onChange={onChange}
         value={selectedItem}
@@ -43,7 +46,6 @@ export const DropDown: FC<IDropdown> = ({
           )
         })}
       </Select>
-      {errorMessage && <ErrorMessage>{errorMessage}</ErrorMessage>}
     </DropdownC>
   )
 }

@@ -17,6 +17,9 @@ export const CurrencyInput = styled(DefaultCurrencyInput)<{
 `
 export const Title = styled.div`
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 `
 
 export const TextArea = styled.textarea`

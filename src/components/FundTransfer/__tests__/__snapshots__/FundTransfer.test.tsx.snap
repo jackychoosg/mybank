@@ -9,7 +9,7 @@ exports[`FundTransfer component should take a snapshot 1`] = `
       class="sc-iCoGMd jbhMdW"
     >
       <label
-        class="sc-fujyAs lpvfqg"
+        class="sc-fujyAs hTHZlC"
       >
         From account
       </label>
@@ -44,7 +44,7 @@ exports[`FundTransfer component should take a snapshot 1`] = `
       class="sc-iCoGMd jbhMdW"
     >
       <label
-        class="sc-fujyAs lpvfqg"
+        class="sc-fujyAs hTHZlC"
       >
         To account
       </label>
@@ -79,7 +79,7 @@ exports[`FundTransfer component should take a snapshot 1`] = `
       class="sc-iCoGMd jbhMdW"
     >
       <label
-        class="sc-fujyAs lpvfqg"
+        class="sc-fujyAs hTHZlC"
       >
         Currency
       </label>
@@ -114,9 +114,14 @@ exports[`FundTransfer component should take a snapshot 1`] = `
       class="sc-gtsrHT jZTxQO"
     >
       <div
-        class="sc-hKFxyN jKGmcM"
+        class="sc-hKFxyN lgyOKa"
       >
         Amount
+        <div
+          class="sc-gKAaRy jfCmJa"
+        >
+          required
+        </div>
       </div>
       <input
         class="sc-dlnjwi cpzDwW"
@@ -128,17 +133,12 @@ exports[`FundTransfer component should take a snapshot 1`] = `
         type="text"
         value="$1,000"
       />
-      <div
-        class="sc-gKAaRy jAnUVb"
-      >
-        required
-      </div>
     </div>
     <div
       class="sc-gtsrHT jZTxQO"
     >
       <div
-        class="sc-hKFxyN jKGmcM"
+        class="sc-hKFxyN lgyOKa"
       >
         Description(Optional)
       </div>

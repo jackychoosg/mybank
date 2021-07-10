@@ -30,6 +30,7 @@ export const strings = {
     from: 'From account',
     to: 'To account',
     currency: 'Currency',
+    amount: 'Amount',
     amountPlaceHolder: 'Please enter amount',
     errors: {
       fromAccount: 'From account is required',

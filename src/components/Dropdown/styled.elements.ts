@@ -7,6 +7,9 @@ export const DropdownC = styled.div`
 
 export const Label = styled.label`
   font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 `
 
 export const Select = styled.select<{ error?: string }>`
