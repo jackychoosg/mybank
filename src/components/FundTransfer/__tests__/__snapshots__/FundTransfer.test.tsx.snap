@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FundTransfer component should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdnxRM ivfALk"
+  >
+    <div
+      class="sc-iCoGMd jbhMdW"
+    >
+      <label
+        class="sc-fujyAs lpvfqg"
+      >
+        From account
+      </label>
+      <select
+        class="sc-pNWdM FAkSM"
+        data-testid="select"
+      >
+        <option
+          class="sc-jrsJWt"
+          data-testid="select-option"
+          value="0"
+        >
+          ---Choose account---
+        </option>
+        <option
+          class="sc-jrsJWt"
+          data-testid="select-option"
+          value="1"
+        >
+          Account 1
+        </option>
+        <option
+          class="sc-jrsJWt"
+          data-testid="select-option"
+          value="3"
+        >
+          Account 3
+        </option>
+      </select>
+    </div>
+    <div
+      class="sc-iCoGMd jbhMdW"
+    >
+      <label
+        class="sc-fujyAs lpvfqg"
+      >
+        To account
+      </label>
+      <select
+        class="sc-pNWdM FAkSM"
+        data-testid="select"
+      >
+        <option
+          class="sc-jrsJWt"
+          data-testid="select-option"
+          value="0"
+        >
+          ---Choose account---
+        </option>
+        <option
+          class="sc-jrsJWt"
+          data-testid="select-option"
+          value="2"
+        >
+          Account 2
+        </option>
+        <option
+          class="sc-jrsJWt"
+          data-testid="select-option"
+          value="3"
+        >
+          Account 3
+        </option>
+      </select>
+    </div>
+    <div
+      class="sc-iCoGMd jbhMdW"
+    >
+      <label
+        class="sc-fujyAs lpvfqg"
+      >
+        Currency
+      </label>
+      <select
+        class="sc-pNWdM FAkSM"
+        data-testid="select"
+      >
+        <option
+          class="sc-jrsJWt"
+          data-testid="select-option"
+          value="0"
+        >
+          ---Choose currency---
+        </option>
+        <option
+          class="sc-jrsJWt"
+          data-testid="select-option"
+          value="1"
+        >
+          Singapore Dollar
+        </option>
+        <option
+          class="sc-jrsJWt"
+          data-testid="select-option"
+          value="2"
+        >
+          Australia Dollar
+        </option>
+      </select>
+    </div>
+    <div
+      class="sc-gtsrHT jZTxQO"
+    >
+      <div
+        class="sc-hKFxyN jKGmcM"
+      >
+        Amount
+      </div>
+      <input
+        class="sc-dlnjwi cpzDwW"
+        error="error"
+        id="input-amount"
+        inputmode="decimal"
+        name="amount"
+        placeholder="Please enter amount"
+        type="text"
+        value="$1,000"
+      />
+      <div
+        class="sc-gKAaRy jAnUVb"
+      >
+        required
+      </div>
+    </div>
+    <div
+      class="sc-gtsrHT jZTxQO"
+    >
+      <div
+        class="sc-hKFxyN jKGmcM"
+      >
+        Description(Optional)
+      </div>
+      <textarea
+        class="sc-eCApnc dBBAYf"
+        data-testid="text-area"
+        maxlength="200"
+      >
+        Testing
+      </textarea>
+      <div
+        class="sc-jSFjdj knYjhy"
+      >
+        193 characters remaining.
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

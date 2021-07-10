@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionList component should take a snapshot with Debit data 1`] = `
+<DocumentFragment>
+  <table
+    class="sc-bdnxRM frAAFw"
+  >
+    <thead
+      class="sc-gtsrHT koYlQI st-header"
+    >
+      <tr
+        class="sc-eCApnc"
+      >
+        <th
+          class="sc-dlnjwi cvvJUt"
+        >
+          Transaction Date
+        </th>
+        <th
+          class="sc-dlnjwi cvvJUt"
+        >
+          Description
+        </th>
+        <th
+          class="sc-dlnjwi cvvJUt"
+        >
+          Action
+        </th>
+        <th
+          class="sc-dlnjwi cvvJUt"
+        >
+          Currency
+        </th>
+        <th
+          class="sc-dlnjwi cvvJUt"
+        >
+          Amount
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="sc-jSFjdj st-body"
+    >
+      <tr
+        class="sc-eCApnc"
+      >
+        <td
+          class="sc-hKFxyN koVabA"
+        >
+          July 9, 2021 7:17 PM
+        </td>
+        <td
+          class="sc-hKFxyN koVabA"
+        >
+          Testing
+        </td>
+        <td
+          class="sc-hKFxyN koVabA"
+        >
+          debit
+        </td>
+        <td
+          class="sc-hKFxyN koVabA"
+        >
+          SGD
+        </td>
+        <td
+          class="sc-hKFxyN koVabA"
+        >
+          <label
+            class="sc-iCoGMd ksFDXw"
+          >
+            -$1,000
+          </label>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`TransactionList component should take a snapshot with credit data 1`] = `
+<DocumentFragment>
+  <table
+    class="sc-bdnxRM frAAFw"
+  >
+    <thead
+      class="sc-gtsrHT koYlQI st-header"
+    >
+      <tr
+        class="sc-eCApnc"
+      >
+        <th
+          class="sc-dlnjwi cvvJUt"
+        >
+          Transaction Date
+        </th>
+        <th
+          class="sc-dlnjwi cvvJUt"
+        >
+          Description
+        </th>
+        <th
+          class="sc-dlnjwi cvvJUt"
+        >
+          Action
+        </th>
+        <th
+          class="sc-dlnjwi cvvJUt"
+        >
+          Currency
+        </th>
+        <th
+          class="sc-dlnjwi cvvJUt"
+        >
+          Amount
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="sc-jSFjdj st-body"
+    >
+      <tr
+        class="sc-eCApnc"
+      >
+        <td
+          class="sc-hKFxyN koVabA"
+        >
+          July 9, 2021 7:17 PM
+        </td>
+        <td
+          class="sc-hKFxyN koVabA"
+        >
+          Testing
+        </td>
+        <td
+          class="sc-hKFxyN koVabA"
+        >
+          credit
+        </td>
+        <td
+          class="sc-hKFxyN koVabA"
+        >
+          AUD
+        </td>
+        <td
+          class="sc-hKFxyN koVabA"
+        >
+          <label
+            class="sc-fujyAs gyuDgd"
+          >
+            +$1,000
+          </label>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;

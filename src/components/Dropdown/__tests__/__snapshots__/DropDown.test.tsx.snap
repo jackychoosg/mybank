@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropDown component should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-gtsrHT ckIJnv"
+  >
+    <label
+      class="sc-dlnjwi kkQsvs"
+    >
+      Account
+    </label>
+    <select
+      class="sc-hKFxyN bVnZyW"
+      data-testid="select"
+    >
+      <option
+        class="sc-eCApnc"
+        data-testid="select-option"
+        value="0"
+      >
+        --Choose the item--
+      </option>
+      <option
+        class="sc-eCApnc"
+        data-testid="select-option"
+        value="1"
+      >
+        account1
+      </option>
+      <option
+        class="sc-eCApnc"
+        data-testid="select-option"
+        value="2"
+      >
+        account2
+      </option>
+    </select>
+    <div
+      class="sc-bdnxRM iagrrb"
+    >
+      Required
+    </div>
+  </div>
+</DocumentFragment>
+`;

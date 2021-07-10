@@ -1,0 +1,78 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "name": "Account 1",
+      "accountNumber": "111111111"
+    },
+    {
+      "id": 2,
+      "name": "Account 2",
+      "accountNumber": "222222222"
+    },
+    {
+      "id": 3,
+      "name": "Account 3",
+      "accountNumber": "333333333"
+    }
+  ],
+  "transactions": [
+    {
+      "accountId": 1,
+      "currencyId": 1,
+      "timestamp": 1625829468,
+      "reference": "948324085",
+      "amount": 1000,
+      "description": "Testing",
+      "action": "debit",
+      "id": 1
+    },
+    {
+      "accountId": 2,
+      "currencyId": 1,
+      "timestamp": 1625829468,
+      "reference": "948324085",
+      "amount": 1000,
+      "description": "Testing",
+      "action": "credit",
+      "id": 2
+    },
+    {
+      "accountId": 1,
+      "currencyId": 2,
+      "timestamp": 1625920631,
+      "reference": "1191275310",
+      "amount": 20,
+      "description": "lunch",
+      "action": "debit",
+      "id": 3
+    },
+    {
+      "accountId": 3,
+      "currencyId": 2,
+      "timestamp": 1625920631,
+      "reference": "1191275310",
+      "amount": 20,
+      "description": "lunch",
+      "action": "credit",
+      "id": 4
+    }
+  ],
+  "currencies": [
+    {
+      "id": 1,
+      "code": "SGD",
+      "name": "Singapore Dollar"
+    },
+    {
+      "id": 2,
+      "code": "AUD",
+      "name": "Australia Dollar"
+    },
+    {
+      "id": 3,
+      "code": "USD",
+      "name": "US Dollar"
+    }
+  ]
+}

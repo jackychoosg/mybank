@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading component should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdnxRM dgqAJz"
+  >
+    <div
+      class="sc-gtsrHT gIWqJW"
+    >
+      Loading...
+    </div>
+  </div>
+</DocumentFragment>
+`;

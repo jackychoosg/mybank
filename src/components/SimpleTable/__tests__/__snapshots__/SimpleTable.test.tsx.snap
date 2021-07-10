@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimpleTable component should take a snapshot with data 1`] = `
+<DocumentFragment>
+  <table
+    class="sc-bdnxRM frAAFw"
+  >
+    <thead
+      class="sc-gtsrHT koYlQI st-header"
+    >
+      <tr
+        class="sc-eCApnc"
+      >
+        <th
+          class="sc-dlnjwi cvvJUt"
+        >
+          Transaction Date
+        </th>
+        <th
+          class="sc-dlnjwi cvvJUt"
+        >
+          Description
+        </th>
+        <th
+          class="sc-dlnjwi cvvJUt"
+        >
+          Action
+        </th>
+        <th
+          class="sc-dlnjwi cvvJUt"
+        >
+          Currency
+        </th>
+        <th
+          class="sc-dlnjwi cvvJUt"
+        >
+          Amount
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="sc-jSFjdj st-body"
+    >
+      <tr
+        class="sc-eCApnc"
+      >
+        <td
+          class="sc-hKFxyN koVabA"
+        >
+          1625829468
+        </td>
+        <td
+          class="sc-hKFxyN koVabA"
+        >
+          Testing
+        </td>
+        <td
+          class="sc-hKFxyN koVabA"
+        >
+          debit
+        </td>
+        <td
+          class="sc-hKFxyN koVabA"
+        />
+        <td
+          class="sc-hKFxyN koVabA"
+        >
+          1000
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`SimpleTable component should take a snapshot with empty data 1`] = `
+<DocumentFragment>
+  <table
+    class="sc-bdnxRM frAAFw"
+  >
+    <thead
+      class="sc-gtsrHT koYlQI st-header"
+    >
+      <tr
+        class="sc-eCApnc"
+      >
+        <th
+          class="sc-dlnjwi cvvJUt"
+        >
+          Transaction Date
+        </th>
+        <th
+          class="sc-dlnjwi cvvJUt"
+        >
+          Description
+        </th>
+        <th
+          class="sc-dlnjwi cvvJUt"
+        >
+          Action
+        </th>
+        <th
+          class="sc-dlnjwi cvvJUt"
+        >
+          Currency
+        </th>
+        <th
+          class="sc-dlnjwi cvvJUt"
+        >
+          Amount
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="sc-jSFjdj st-body"
+    >
+      <tr
+        class="sc-eCApnc"
+      >
+        <td
+          class="sc-hKFxyN koVabA"
+          colspan="5"
+        >
+          <div
+            class="sc-gKAaRy dTdeio"
+          >
+            There is no data, please choose other account
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
