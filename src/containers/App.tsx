@@ -151,7 +151,7 @@ class App extends React.PureComponent<Props, State> {
     const { fromAccount, toAccount, amount, description, currencyId } =
       this.state
     const timestamp = moment().unix()
-    const reference = Math.floor(Math.random() * timestamp).toString()
+    const reference = `ref-${timestamp}`
     if (this.hasErrorOnFormData()) {
       return
     }

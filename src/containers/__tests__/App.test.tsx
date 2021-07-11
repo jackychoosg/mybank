@@ -4,6 +4,11 @@ import App from '../App'
 import R from '../../assets'
 import apis from '../../apis'
 import { TransactionAction } from '../../common/enums'
+jest.mock('moment', () => {
+  const moment = jest.requireActual('moment')
+  Date.now = () => new Date('2021-07-11T03:19:31Z').valueOf()
+  return moment
+})
 const accounts = [
   {
     id: 1,
@@ -144,5 +149,14 @@ describe('App component', () => {
     const confirmBtn = getByTestId('confirm')
     fireEvent.click(confirmBtn)
     expect(apis.createTransaction).toHaveBeenCalledTimes(2)
+    expect(apis.createTransaction).toHaveBeenLastCalledWith({
+      accountId: 1,
+      action: 'credit',
+      amount: 222,
+      currencyId: 2,
+      description: 'description',
+      reference: 'ref-1625973571',
+      timestamp: 1625973571
+    })
   })
 })
